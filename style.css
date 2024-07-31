@@ -87,3 +87,13 @@
     border-top-right-radius: 1rem;
 
   }
+   .profile-card{
+    text-align: center;
+   }
+
+  .profile-image{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: auto;
+    margin-top: -3.2rem;
+  }
