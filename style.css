@@ -75,12 +75,21 @@
     align-items: center;
 
     height: 100vh;
+    background-color: var(--dark-cyan);
 
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -40px -400px, 105% 430px
+
+    
   }
 
   article{
     
     border-radius: 1rem;
+    border: 1px solid black;
+    padding-bottom: 1rem;
+    background-color: white;
   }
 
   .header{
@@ -89,6 +98,7 @@
     height: 150px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+   
 
   }
    .profile-card{
@@ -132,7 +142,7 @@
     display: flex;
     justify-content: center;
     gap: 4rem;
-    outline: 1px solid red;
+    
     padding:0;
   }
 
