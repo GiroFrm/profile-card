@@ -96,4 +96,24 @@
     border: 5px solid white;
     margin: auto;
     margin-top: -3.2rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .profile-details{
+
+  }
+
+  .profile-name{
+    font-weight: var(--fw-bold);
+    margin-bottom: 0.4rem;
+  }
+  .profile-age{
+    color:var(--dark-grayish-blue);
+    font-weight: 600;
+    margin-left: 0.5rem;
+  }
+  .profile-location{
+    color:var(--dark-grayish-blue);
+    font-size: var(--fs-100);
   }
