@@ -66,4 +66,24 @@
     font-family: var(--font-family);
     font-size: var(--fs-150);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+  }
+
+  article{
+    outline: 3px solid red;
+    border-radius: 1rem;
+  }
+
+  .header{
+    background-image: url(images/bg-pattern-card.svg);
+    width: 375px;
+    height: 150px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
   }
